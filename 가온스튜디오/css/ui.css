@@ -1400,6 +1400,9 @@ footer .footer__title {
   .contents-wrap#art .list-item li a:after {
     background-color: rgba(0, 0, 0, 0.5);
   }
+  .contents-wrap#art .list-item li a:hover:after {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
   .contents-wrap#art .list-item li a .caption {
     opacity: 1;
   }
@@ -1554,6 +1557,12 @@ footer .footer__title {
 }
 
 @media (max-width: 799px) {
+  .contents-wrap .swiper-button-prev, .contents-wrap .swiper-button-next {
+    left: 3rem;
+  }
+  .contents-wrap .swiper-pagination-fraction {
+    left: 6rem;
+  }
   .contents-wrap#about .swiper-button-prev, .contents-wrap#about .swiper-button-next {
     bottom: 18.6rem;
   }
